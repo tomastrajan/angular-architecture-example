@@ -1,0 +1,15 @@
+.spacer {
+  flex: 1 0 auto;
+}
+
+button {
+  margin: 0 10px;
+
+  &.active {
+    filter: brightness(120%);
+  }
+}
+
+main {
+  padding: 20px 20%;
+}
